@@ -1,0 +1,87 @@
+{
+    "turbulenceScale": 2.0,
+    "cutoff": 0.01,
+    "lightCount": 3,
+    "domainBboxMin": [-50.0, -0.20833206176757812, -25.0],
+    "turbMaskTempRamp": [0.03586800396442413, 0.22381635010242462],
+    "emissionScale": 4.0,
+    "renderRes": [1280, 720],
+    "windAmp": 0.0,
+    "buoyancy": 0.0,
+    "multiScatterColor": [1.0, 0.2, 0.0],
+    "multiScatterBlurIter": 288,
+    "turbMaskVelRamp": [0.0, 10.0],
+    "density": 0.1,
+    "coolingRate": -0.2,
+    "sourceAnimated": 1,
+    "gravity": -9.8,
+    "multiScatterDensityMask": [0.0, 0.1],
+    "shaderTempRange": [2.0, 3.0],
+    "shadowDensityScale": 1.0,
+    "lights": [{
+        "light_dir": [0.2627471929654977, -0.04657498419604154, -0.963739945958395],
+        "light_exposure": 0.0,
+        "light_intensity": 1.0,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }, {
+        "light_dir": [-0.9991994341163133, 0.03504817908107756, -0.019290308570364224],
+        "light_exposure": 0.0,
+        "light_intensity": 0.1,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }, {
+        "light_dir": [0.9654049112190265, -0.1364686527417421, -0.22219285364979077],
+        "light_exposure": 0.0,
+        "light_intensity": 0.5,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }],
+    "turbulenceAmp": 187.5,
+    "renderRange": [1, 240, 1],
+    "domainBboxMax": [50.0, 35.20833206176758, 25.0],
+    "gridRes": [768, 272, 384],
+    "absorption": 0.1,
+    "sourceMaxParticleCount": 218106,
+    "particleFile": "../geo/rocketLaunch_0002.part",
+    "maxIterSolve": 200,
+    "scatteringColor": [0.75, 1.1549998819828033, 1.5],
+    "drag": 0.125,
+    "gain": 0.0,
+    "dx": 0.13020833333333334,
+    "dt": 0.041666666666666664,
+    "windTurbAmp": 3.75,
+    "vorticityConf": 0.0,
+    "sceneName": "rocketLaunch",
+    "windTurbScale": 0.625,
+    "shadowSamplingRate": 0.2604166666666667,
+    "sourceRange": [1.0, 240.0, 1.0],
+    "windDir": 1,
+    "windSpeed": 0.4,
+    "shaderColorRamp": {
+        "count": 4,
+        "keys": [0.0, 0.33000001311302185, 0.6600000262260437, 1.0],
+        "colors": [
+            [0.0, 0.0, 0.0],
+            [1.0, 0.054999999701976776, 0.0],
+            [1.0, 0.4309999942779541, 0.0],
+            [1.0, 1.0, 0.07700002193450928]
+        ]
+    },
+    "multiScatterScale": 50.0,
+    "cam": {
+        "aperture": 41.4214,
+        "rotMat": [
+            [-1.0, 0.0, 0.0],
+            [0.0, 0.9396926207859084, 0.3420201433256687],
+            [0.0, 0.3420201433256687, -0.9396926207859084]
+        ],
+        "t": [0.0, 62.18187680183392, -121.66544007232025],
+        "focal": 50.0
+    },
+    "closedBounds": [1, 1, 1, 1, 0, 0],
+    "renderFile": "../render/rocketLaunch_0002.exr",
+    "primarySampleRate": 0.13020833333333334,
+    "volumeColor": [0.8, 0.9, 1.0],
+    "densityScale": 1.0
+}

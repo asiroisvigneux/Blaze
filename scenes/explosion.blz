@@ -1,0 +1,87 @@
+{
+    "turbulenceScale": 2.0,
+    "cutoff": 0.01,
+    "lightCount": 3,
+    "domainBboxMin": [-29.11481475830078, 0.012792587280273438, -36.423011779785156],
+    "turbMaskTempRamp": [0.06456241011619568, 0.2769010066986084],
+    "emissionScale": 2.0,
+    "renderRes": [1280, 720],
+    "windAmp": 0.6000000000000001,
+    "buoyancy": 2.5,
+    "multiScatterColor": [1.0, 0.2, 0.0],
+    "multiScatterBlurIter": 18,
+    "turbMaskVelRamp": [0.0, 10.0],
+    "density": 0.1,
+    "coolingRate": 0.35,
+    "sourceAnimated": 1,
+    "gravity": -9.8,
+    "multiScatterDensityMask": [0.0, 0.5],
+    "shaderTempRange": [2.0, 5.0],
+    "shadowDensityScale": 1.0,
+    "lights": [{
+        "light_dir": [0.1475050548628648, 0.030642542045502597, -0.9885865128590886],
+        "light_exposure": 0.0,
+        "light_intensity": 0.07500000000000001,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }, {
+        "light_dir": [-0.030871459795816673, -0.24517443332175526, 0.9689873323297016],
+        "light_exposure": 0.0,
+        "light_intensity": 0.26249999999999996,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }, {
+        "light_dir": [0.9600509022391356, -0.24659722635233644, -0.13225760116211258],
+        "light_exposure": 0.0,
+        "light_intensity": 0.75,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }],
+    "turbulenceAmp": 281.25,
+    "renderRange": [1, 150, 1],
+    "domainBboxMax": [25.17263412475586, 50.422569274902344, 27.55862045288086],
+    "gridRes": [448, 416, 528],
+    "absorption": 0.1,
+    "sourceMaxParticleCount": 278722,
+    "particleFile": "../geo/explosion_0001.part",
+    "maxIterSolve": 200,
+    "scatteringColor": [0.75, 1.1549998819828033, 1.5],
+    "drag": 0.0,
+    "gain": 0.0,
+    "dx": 0.12117734125682286,
+    "dt": 0.041666666666666664,
+    "windTurbAmp": 3.75,
+    "vorticityConf": 0.0,
+    "sceneName": "explosion",
+    "windTurbScale": 0.625,
+    "shadowSamplingRate": 0.24235468251364573,
+    "sourceRange": [1.0, 16.0, 1.0],
+    "windDir": 3,
+    "windSpeed": 0.4,
+    "shaderColorRamp": {
+        "count": 4,
+        "keys": [0.0, 0.33000001311302185, 0.6600000262260437, 1.0],
+        "colors": [
+            [0.0, 0.0, 0.0],
+            [1.0, 0.054999999701976776, 0.0],
+            [1.0, 0.4309999942779541, 0.0],
+            [1.0, 1.0, 0.07700002193450928]
+        ]
+    },
+    "multiScatterScale": 0.625,
+    "cam": {
+        "aperture": 41.4214,
+        "rotMat": [
+            [-0.0076344158086652045, 3.0357660829536643e-18, -0.9999708574229853],
+            [-0.21752006621482897, 0.9760544364493655, 0.0016606870289120326],
+            [0.9760259917077807, 0.21752640549485383, -0.007451605419746842]
+        ],
+        "t": [97.71384842421476, 39.039010185736956, -4.924442921317448],
+        "focal": 50.0
+    },
+    "closedBounds": [1, 1, 1, 0, 0, 0],
+    "renderFile": "../render/explosion_0001.exr",
+    "primarySampleRate": 0.12117734125682286,
+    "volumeColor": [0.8, 0.9, 1.0],
+    "densityScale": 5.0
+}

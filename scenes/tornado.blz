@@ -1,0 +1,81 @@
+{
+    "turbulenceScale": 4.0,
+    "cutoff": 0.01,
+    "lightCount": 2,
+    "domainBboxMin": [-88.27946472167969, 0.0, -50.0],
+    "turbMaskTempRamp": [0.061692968010902405, 0.22812052071094513],
+    "emissionScale": 0.0,
+    "renderRes": [1280, 720],
+    "windAmp": 0.0,
+    "buoyancy": -0.1,
+    "multiScatterColor": [1.0, 0.2, 0.0],
+    "multiScatterBlurIter": 72,
+    "turbMaskVelRamp": [0.0, 10.0],
+    "density": 0.1,
+    "coolingRate": 1.0,
+    "sourceAnimated": 1,
+    "gravity": -9.8,
+    "multiScatterDensityMask": [0.0, 0.01],
+    "shaderTempRange": [2.0, 3.0],
+    "shadowDensityScale": 1.0,
+    "lights": [{
+        "light_dir": [0.9236230640761642, -0.03824890337598308, -0.3813888526125174],
+        "light_exposure": 0.0,
+        "light_intensity": 1.0,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }, {
+        "light_dir": [-0.7363905532971513, -0.03788481438210062, -0.6754951471727602],
+        "light_exposure": 0.0,
+        "light_intensity": 0.25,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }],
+    "turbulenceAmp": 187.5,
+    "renderRange": [1, 240, 1],
+    "domainBboxMax": [88.27946472167969, 100.0, 50.0],
+    "gridRes": [640, 368, 368],
+    "absorption": 0.1,
+    "sourceMaxParticleCount": 302402,
+    "particleFile": "../geo/tornado_0001.part",
+    "maxIterSolve": 200,
+    "scatteringColor": [0.75, 1.1549998819828033, 1.5],
+    "drag": 0.0,
+    "gain": 0.0,
+    "dx": 0.27587332725524905,
+    "dt": 0.041666666666666664,
+    "windTurbAmp": 3.75,
+    "vorticityConf": 0.0,
+    "sceneName": "tornado",
+    "windTurbScale": 0.625,
+    "shadowSamplingRate": 0.8276199817657471,
+    "sourceRange": [1.0, 240.0, 1.0],
+    "windDir": 1,
+    "windSpeed": 0.4,
+    "shaderColorRamp": {
+        "count": 4,
+        "keys": [0.0, 0.33000001311302185, 0.6600000262260437, 1.0],
+        "colors": [
+            [0.0, 0.0, 0.0],
+            [1.0, 0.054999999701976776, 0.0],
+            [1.0, 0.4309999942779541, 0.0],
+            [1.0, 1.0, 0.07700002193450928]
+        ]
+    },
+    "multiScatterScale": 0.0,
+    "cam": {
+        "aperture": 41.4214,
+        "rotMat": [
+            [-0.9997364476707763, -1.3010426069826056e-17, 0.022957247191618967],
+            [-0.004432656291450429, 0.98118240875448, -0.1930322053672866],
+            [-0.022525247097844717, -0.1930830928661452, -0.9809238158452595]
+        ],
+        "t": [-4.1480244064727305, 6.2456941196940425, -239.24664791825816],
+        "focal": 50.0
+    },
+    "closedBounds": [0, 0, 1, 1, 0, 0],
+    "renderFile": "../render/tornado_0001.exr",
+    "primarySampleRate": 0.27587332725524905,
+    "volumeColor": [0.8, 0.9, 1.0],
+    "densityScale": 1.0
+}

@@ -1,0 +1,81 @@
+{
+    "turbulenceScale": 2.0,
+    "cutoff": 0.01,
+    "lightCount": 2,
+    "domainBboxMin": [0.3894374370574951, 0.0012485980987548828, -0.6170858144760132],
+    "turbMaskTempRamp": [0.03299856558442116, 0.14490674436092377],
+    "emissionScale": 0.5,
+    "renderRes": [1280, 720],
+    "windAmp": 0.2,
+    "buoyancy": 0.075,
+    "multiScatterColor": [1.0, 0.2, 0.0],
+    "multiScatterBlurIter": 9,
+    "turbMaskVelRamp": [0.0, 0.05864661559462547],
+    "density": 0.1,
+    "coolingRate": -0.1,
+    "sourceAnimated": 1,
+    "gravity": -9.8,
+    "multiScatterDensityMask": [0.0, 0.1],
+    "shaderTempRange": [1.25, 2.0],
+    "shadowDensityScale": 1.0,
+    "lights": [{
+        "light_dir": [0.9600509022391356, -0.24659722635233644, -0.13225760116211258],
+        "light_exposure": 0.0,
+        "light_intensity": 1.0,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }, {
+        "light_dir": [-0.6653347425183611, -0.02657355391860979, 0.7460720653061343],
+        "light_exposure": 0.0,
+        "light_intensity": 0.15,
+        "light_samples": 1,
+        "light_color": [1.0, 1.0, 1.0]
+    }],
+    "turbulenceAmp": 2.0,
+    "renderRange": [1, 1000, 1],
+    "domainBboxMax": [7.0213470458984375, 5.389675140380859, 1.1790562868118286],
+    "gridRes": [768, 624, 208],
+    "absorption": 0.1,
+    "sourceMaxParticleCount": 64720,
+    "particleFile": "../geo/smokePlume_0001.part",
+    "maxIterSolve": 200,
+    "scatteringColor": [0.75, 1.1549998819828033, 1.5],
+    "drag": 0.0,
+    "gain": 0.0,
+    "dx": 0.008635298892234763,
+    "dt": 0.041666666666666664,
+    "windTurbAmp": 7.5,
+    "vorticityConf": 0.0,
+    "sceneName": "smokePlume",
+    "windTurbScale": 0.125,
+    "shadowSamplingRate": 0.017270597784469526,
+    "sourceRange": [1.0, 1000.0, 1.0],
+    "windDir": 0,
+    "windSpeed": 0.2,
+    "shaderColorRamp": {
+        "count": 4,
+        "keys": [0.0, 0.33000001311302185, 0.6600000262260437, 1.0],
+        "colors": [
+            [0.0, 0.0, 0.0],
+            [1.0, 0.054999999701976776, 0.0],
+            [1.0, 0.4309999942779541, 0.0],
+            [1.0, 1.0, 0.07700002193450928]
+        ]
+    },
+    "multiScatterScale": 10.0,
+    "cam": {
+        "aperture": 41.4214,
+        "rotMat": [
+            [1.0, 0.0, 0.0],
+            [0.0, 1.0, 0.0],
+            [0.0, 0.0, 1.0]
+        ],
+        "t": [1.8576354252499319, 2.490809361893939, 11.593760629439107],
+        "focal": 50.0
+    },
+    "closedBounds": [0, 0, 1, 1, 1, 1],
+    "renderFile": "../render/smokePlume_0001.exr",
+    "primarySampleRate": 0.008635298892234763,
+    "volumeColor": [0.8, 0.9, 1.0],
+    "densityScale": 150.0
+}
