@@ -45,24 +45,24 @@ In order to make the build process as straightforward as possible, we let *Nsigh
 
 From *Nsight* it is possible to choose **New > CUDA C/C++ Project**, name the project "Blaze" and uncheck **Use default location** to point to the location of the previously cloned Blaze repository on disk. You should be able to click **next** and then **finish** from here.
 
-If you want the match the performance obtained in the paper you need to right-click on the project, then go to **Properties > Build > Settings > Debugging** where you should uncheck all options. Next got to **Properties > Build > Settings > Optimization** and check **Make use of fast math** as well as setting the **Optimization Level** to  **Optimize most (-O3)**.
+If you want the match the performance obtained in the paper you need to right-click on the project, then go to **Properties > Build > Settings > Tool Settings > Debugging** where you should uncheck all options. Next got to **Properties > Build > Settings > Tool Settings > Optimization** and check **Make use of fast math** as well as setting the **Optimization Level** to  **Optimize most (-O3)**.
 
 From there you can simply right-click on the project and select **Build Project**. This will create a **Debug** directory containing the **Blaze** executable.
 
 ## Simulating and Rendering Scenes
 
-:boom: **Download the .part files:** The geo directory only contains a markdown file with links to download the appropriate particle source files. Those are separated from the git repository because of their large size and are required to run the provided demo scenes as indicated in the next steps.
+:boom: **Download the .part files:** The geo directory only contains a README file with links to download the appropriate particle source files. Those are separated from the git repository because of their large size and are required to run the provided demo scenes as indicated in the next steps. See the README in the geo folder before moving to the next step.
 
-To launch a Blaze simulation + render you simply need to go to the **Debug** directory from a terminal and run:
+Once you have the particle files available on disk, you can launch a Blaze simulation + render from the **Debug** directory by running the following command in a terminal:
 
 ```ShellSession
-$ ./Blaze ../scenes/groundFire.blz
+$ ./Blaze ../scenes/<sceneFile.blz>
 ```
 
-to launch the **Ground Fire** demo scene as an example. If you want to log a trace of the execution you can also add the **-l** flag:
+If you want to log a trace of the execution you can also add the **-l** flag:
 
 ```ShellSession
-$ ./Blaze -l ../scenes/groundFire.blz
+$ ./Blaze -l ../scenes/<sceneFile.blz>
 ```
 
 The rendered files will be written to a path relative to the **.blz** scene location on disk. This relative path is defined from the **HDA** and stored in the **.blz** scene file.
