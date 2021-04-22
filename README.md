@@ -1,13 +1,11 @@
 # Blaze
 #### A Parallel Fluid Solver and Renderer on the GPU
-<br>
-<p align="center">
-  <img src="img/teaser.jpg" />
-</p>
 
 <div align="center">
-  <a href="https://drive.google.com/open?id=1mIu8JFknY5qCvWyRsmIovVxupaqxt5ED">Technical Paper</a>
-  | <a href="https://www.youtube.com/watch?v=BEbdy-7v5cE">YouTube Video</a>
+  <img src="img/teaser.jpg" />
+  <br><br>
+  <a href="https://drive.google.com/file/d/1DaBsw6WKcPI_tvl-_QjJeEiXMBBwSC4V/view?usp=sharing">Technical Paper</a>
+  | <a href="https://youtu.be/lxIIJf6EVqo">YouTube Video</a>
   <br><br>
 </div>
 
@@ -41,7 +39,9 @@ using a minimalist user interface for a simple and yet powerful fluid workflow.
 
 ## Building the Project
 
-:warning: Blaze was developed on **Linux Fedora 31** using the **CUDA Toolkit 10.2**. It was not compiled nor tested on any other platform or hardware and might require some modifications to run in a different environment.
+<div class="alert alert-block alert-warning">
+Blaze was developed on <b>Linux Fedora 31</b> using the <b>CUDA Toolkit 10.2</b>. It was not compiled nor tested on any other platform or hardware and might require some modifications to run in a different environment.
+</div>
 
 In order to make the build process as straightforward as possible, we let *Nsight Eclipse* take care of generating the makefiles based on our hardware and environment. *Nsight* is part of the *CUDA Toolkit* and can be downloaded here: [CUDA Toolkit Downloads](https://developer.nvidia.com/cuda-downloads).
 
@@ -53,7 +53,9 @@ From there you can simply right-click on the project and select **Build Project*
 
 ## Simulating and Rendering Scenes
 
-:warning: **Download the .part files:** The geo directory only contains a markdown file with links to download the appropriate particle source files. Those are separated from the git repository because of their large size. Those are required to run the provided demo scenes as indicated in the next steps.
+<div class="alert alert-block alert-warning">
+<b>Download the .part files:</b> The geo directory only contains a markdown file with links to download the appropriate particle source files. Those are separated from the git repository because of their large size and are required to run the provided demo scenes as indicated in the next steps.
+</div>
 
 To launch a Blaze simulation + render you simply need to go to the **Debug** directory from a terminal and run:
 
@@ -81,7 +83,9 @@ The scene creation and particle caching are handled by the **HDA** node at the e
   <img src="img/hda.jpg" />
 </p>
 
-:warning: **Not production-ready:** Blaze was built as a prototype and is therefore not doing proper user input validation and exception handling.
+<div class="alert alert-block alert-warning">
+<b>Not production-ready:</b> Blaze was built as a prototype and is therefore not doing proper user input validation and exception handling.
+</div>
 
 If you have some experience using Houdini, the demo scenes should be enough to give you a good grasp of how things work. When you are done defining the new scene, you need to click on **Save Scene to Disk** to write the **.blz** file as well as **Save Particles to Disk** to write the **.part** files. At that point, you can launch your simulation and render as described in the section above.
 
